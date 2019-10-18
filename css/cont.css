@@ -1,0 +1,313 @@
+.header{
+background-color: rgb(14, 75, 78);
+min-height: 100px;
+padding : 20px;
+text-align: center;
+z-index: 10px ;
+}
+.header h1{
+    text-align: left;
+    color: white;
+    padding-left: 50px;
+}
+.menu ul{
+                padding: 0;
+                font-family: 'Acme', sans-serif;
+                text-align: right;
+            }
+
+            .menu ul li{
+                display: inline-block;
+                position: relative;
+                
+            }
+            .menu ul li a {
+                padding: 10px 20px;
+                text-decoration: none;
+                color:white;
+            }
+            .menu ul li:hover ul.submenu{
+                display: block;
+                color: rgb(12, 12, 41);
+            }
+            .jumbotron {
+                font-family: 'Josefin Sans', sans-serif;
+                width: 100%;
+                padding: 100px 40px;
+                box-sizing: border-box;
+                text-align: left;
+                color: white;
+                background-color: #aaa;
+                background-image: url('E:/data tia/cb1/pic/web.jpg');
+                background-position: center;
+                background-size: cover;
+                position: relative;
+            }
+            .jumbotron h2,
+            .jumbotron p {
+                position: relative;
+            }
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                opacity: 0.4;
+            }
+.content{
+background-color: #ddd;
+padding: 80px 40px;
+min-height: 500px;
+text-align: left;
+color:white;
+overflow: auto;
+font-family: 'Montserrat', sans-serif;
+}
+.kiri
+{
+width:30%;
+height:900px;
+float:left;
+}
+.kanan
+{
+width:70%;
+height:700px;
+float:right;
+}
+
+.content h1{
+    font-size: 3vw;
+    color: rgba(5, 83, 92, 0.986);
+    text-align: left;
+}
+.content h2{
+    font-size: 1.5vw;
+    color: rgba(5, 83, 92, 0.986);
+    text-align: left;
+    display: block;
+}
+.image{
+    background-color: darkcyan;
+    text-align: center;
+    padding: 10px;
+    width: 225px;
+    margin: 80px;
+    margin-top: auto;
+}
+.image img{
+    width: 100%;
+}
+.content p{
+    color: rgba(5, 83, 92, 0.986);
+    text-align: left;
+    padding: 30px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.tabel tr{
+    color: rgba(5, 83, 92, 0.986);
+}
+.tabel td{
+    width: 500px;
+    height: 30px;
+    border-spacing: 1px;
+}
+.hoby{
+    width: 600px;
+    border: 2px solid ;
+    background-color: rgb(28, 60, 70);
+    padding: 50px;
+    margin: 20px;
+}
+
+.hobi{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+.baca{
+    width: 90%;
+    background-color: #22eb72
+}
+.tulis{
+    width: 90%;
+    background-color: #22eb72
+}
+.desain{
+    width: 60%;
+    background-color: #e917d7
+}
+.game{
+    width: 80%;
+    background-color: #b84808
+}
+.travel{
+    width: 50%;
+    background-color: #0a7886e0
+}
+.program{
+    width: 80%;
+    background-color: #0a3e83
+}
+.fa {
+    padding: 20px;
+    font-size: 5px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 1px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+.content2{
+    background-color: #ddd;
+    padding: 80px 40px;
+    min-height: 500px;
+    text-align: justify;
+    color:white;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.content2 h1{
+    font-size: 4vw;
+    color: rgba(5, 83, 92, 0.986);
+    text-align: left;
+}
+#tezt {
+    width: 600px;
+    border: 2px solid ;
+    background-color: rgb(28, 60, 70);
+    padding: 50px;
+    margin: 20px;
+}
+.skill-bar{
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;  
+}
+.skill{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    margin:10px;
+}
+.html{
+    width: 90%;
+    background-color: #22eb72
+}
+.css{
+    width: 70%;
+    background-color: #1E80FA
+}
+.js{
+    width: 60%;
+    background-color: #DBE223
+}
+.php{
+    width: 70%;
+    background-color: #E93232
+}
+.mysql{
+    width: 70%;
+    background-color: #E93232;
+}
+.GitHub{
+    width: 80%;
+    background-color: rgb(22, 11, 11);
+}
+.kom{
+    width: 90%;
+    background-color: rgb(22, 11, 11);
+}
+.kerja{
+    width: 80%;
+    background-color: rgb(22, 11, 11);
+}
+.kreatif{
+    width: 75%;
+    background-color: rgb(22, 11, 11);
+}
+.pimpin{
+    width: 70%;
+    background-color: rgb(22, 11, 11);
+}
+.analis{
+    width: 80%;
+    background-color: rgb(22, 11, 11);
+}
+.bahasa{
+    width: 80%;
+    background-color: rgb(22, 11, 11);
+}
+   
+.content3{
+    background-color: #ddd;
+    padding: 80px 40px;
+    min-height: 500px;
+    text-align: justify;
+    color:white;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.content3 h1{
+    font-size: 3vw;
+    color: rgba(5, 83, 92, 0.986);
+    text-align: left;
+}
+.content3 h2{
+    font-size: 2vw;
+    color: rgba(5, 83, 92, 0.986);
+    text-align: left;
+}
+.pro{
+    width: 600px;
+    border: 2px solid ;
+    background-color: rgb(28, 60, 70);
+    padding: 50px;
+    margin: 20px;
+}
+
+.footer{
+font-family: 'Acme', sans-serif;
+background-color: rgb(14, 65, 78);
+min-height: 50px;
+padding: 20px;
+text-align: left;
+color: antiquewhite;
+}
+
+@media screen and (max width){
+    .content{
+        margin: auto;
+    }
+    .kanan{
+       overflow: auto;
+    }
+    .img{
+        max-width: 100%;
+        height: auto;
+    }
+}
